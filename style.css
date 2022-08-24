@@ -120,6 +120,17 @@ select {
   background-color: white;
 }
 
+@media (max-width: 500px) {
+  body {
+    background-image: url("./images/pattern-background-mobile.svg");
+  }
+
+  .container {
+    max-width: 327px;
+    max-height: 567px;
+  }
+}
+
 image {
   height: 30%;
 }
@@ -130,17 +141,6 @@ image {
   flex-direction: column;
   justify-content: space-between;
   padding: 10%;
-}
-
-@media (max-width: 500px) {
-  body {
-    background-image: url("./images/pattern-background-mobile.svg");
-  }
-
-  .container {
-    max-width: 327px;
-    max-height: 567px;
-  }
 }
 
 a {
